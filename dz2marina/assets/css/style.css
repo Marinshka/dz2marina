@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Gelasio', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    color: #081F32;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header-row {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between; 
+}
+/* Расстояние между логотипои и навигацией меньше, чем расстояние между навигацией и Book now*/
+.logo-home {
+  display: flex;  
+}
+.logo {
+    background-image: url(../imgs/logo.jpg);
+    background-repeat: no-repeat;
+    font-size: 2.4rem;    
+    padding: 5.5rem 2rem 5rem 6.5rem;
+    font-family: Gelasio; 
+    font-style: normal;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #081F32;
+    }
+    .nav {
+        padding-left: 4.5rem;
+    }
+    .nav-item {
+       margin: 0 3rem;
+    }
+    .nav-list {
+        display: flex;
+        list-style: none;
+        font-size: 1.6rem;
+        padding-top: 6rem;
+        font-family: Gelasio; 
+       
+    }
+    .book {
+       text-decoration: none;
+        display: inline-block;
+        background: #1b75bb;
+        border-radius: 5px;
+        color: #fff;
+        padding: 1rem 2rem;
+        margin: 5rem 0 8rem 0;        
+        font-size: 1.6rem;
+    
+    }
+.first-section {
+    background-repeat: no-repeat;
+    background-image: url("../imgs/main-bg.jpg");
+    min-height: 690px;
+    padding: 22rem 0 0;
+}
+.first-section-log {
+    font-size: 2rem;
+    color: #1b75bb; 
+}
+
+.first-section-title {
+    font-size: 5.7rem;
+    max-width: 45rem;
+    margin: 0 0 2rem;
+    font-family: 'Gelasio';
+    font-weight: 600;
+}
+
+.first-section-text {
+    font-size: 1.8rem;
+    max-width: 34rem;   
+}
+.section-small {
+    display: flex;
+    max-width: 70%;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-radius: 1rem;   
+    padding-left: 3rem;
+    background: rgba(216, 213, 213, 0.21);
+}
+.three-small {
+    font-size: 1.6rem;
+    justify-content: space-between;
+    display: flex;   
+}
+
+.three-small-section {    
+    border-right: 3px solid rgba(104, 58, 58, 0.21);
+    margin: 2rem 0 3rem 0;  
+    padding: 0 4rem 0 3rem;
+}
+.chek {
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.find {
+    text-decoration: none;
+     display: inline-block;
+     background: #1b75bb;
+     border-radius: 5px;
+     color: #fff;
+     padding: 2rem 2rem;
+     margin: 2rem 2rem 3rem 0;        
+     font-size: 1.6rem;
+ }
+
+.holidays {
+    padding-top: 20rem;
+}
+
+.holidays-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holidays-imgs {
+    position: relative;
+}
+
+.holidays-img-main {
+    position: relative;
+    z-index: 1;
+}
+
+.holidays-img-sec {
+    position: absolute;
+    top: -50px;
+    right: -60px;
+}
+
+.holidays-img-ripples {
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+}
+
+.holidays-content {
+   
+}
+    .holidays-title {
+        font-size: 3.2rem;
+        max-width: 43rem;
+        margin: 0 0 2rem;
+        font-family: 'Gelasio';
+        font-weight: 500;
+    }
+    .Why-you { 
+        font-size: 3.2rem;
+        margin: 100px;
+        text-align: center;
+        font-family: 'Gelasio';
+        font-weight: 500;
+    }
